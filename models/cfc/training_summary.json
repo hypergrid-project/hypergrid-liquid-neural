@@ -1,0 +1,171 @@
+{
+  "mean_macro_f1": 0.8172060041099837,
+  "mean_macro_precision": 0.8253708534003975,
+  "mean_macro_recall": 0.8525178886060875,
+  "mean_normal_road_fpr": 0.17995636299872872,
+  "best_overall_f1": 0.9100884703196348,
+  "fold_metrics": [
+    {
+      "macro_f1": 0.84893470790378,
+      "macro_precision": 0.815,
+      "macro_recall": 0.925,
+      "normal_road_fpr": 0.06,
+      "confusion_matrix": [
+        [
+          94,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          19,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          30,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.6920645641087907,
+      "macro_precision": 0.6941322865353038,
+      "macro_recall": 0.7348484848484849,
+      "normal_road_fpr": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          56,
+          14,
+          0,
+          14
+        ],
+        [
+          2,
+          13,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          17
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.8640757883857051,
+      "macro_precision": 0.8771197668256492,
+      "macro_recall": 0.8809523809523809,
+      "normal_road_fpr": 0.23655913978494625,
+      "confusion_matrix": [
+        [
+          71,
+          22,
+          0,
+          0
+        ],
+        [
+          3,
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          22,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.7708664898320071,
+      "macro_precision": 0.8516896120150188,
+      "macro_recall": 0.7805201948766304,
+      "normal_road_fpr": 0.12871287128712872,
+      "confusion_matrix": [
+        [
+          88,
+          13,
+          0,
+          0
+        ],
+        [
+          2,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          14,
+          0
+        ],
+        [
+          4,
+          4,
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "macro_f1": 0.9100884703196348,
+      "macro_precision": 0.8889126016260163,
+      "macro_recall": 0.9412683823529412,
+      "normal_road_fpr": 0.1411764705882353,
+      "confusion_matrix": [
+        [
+          73,
+          12,
+          0,
+          0
+        ],
+        [
+          2,
+          29,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          23,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ]
+    }
+  ],
+  "best_model_path": "/Users/zerochirou/Developer/Projects/hypergrid/hg-model/models/cfc/best_cfc_model.pt",
+  "scaler_path": "/Users/zerochirou/Developer/Projects/hypergrid/hg-model/models/cfc/scaler_params.json"
+}
